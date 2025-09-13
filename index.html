@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Roblox Group</title>
+  <style>
+    /* Background & text styles */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      color: #fff;
+      background: url('https://www.roblox.com/asset-thumbnail/image?assetId=9077228052&width=420&height=420&format=png') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    /* Overlay for readability */
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    /* Heading animation */
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      animation: glow 1.5s infinite alternate;
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000; }
+      to { text-shadow: 0 0 20px #ff0000, 0 0 30px #ff0000; }
+    }
+
+    /* Roblox button styles */
+    .roblox-btn {
+      padding: 20px 40px;
+      font-size: 1.5em;
+      font-weight: bold;
+      color: #fff;
+      background-color: #ff0000;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 30px;
+    }
+
+    .roblox-btn:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 20px #ff4444;
+    }
+
+    /* Info box */
+    .info-box {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 12px;
+      max-width: 600px;
+      line-height: 1.5;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 2em; }
+      .roblox-btn { font-size: 1.2em; padding: 15px 30px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>🎮 Welcome to My Roblox Group! 🎮</h1>
+    <a href="https://www.roblox.com/share?code=6ce90869f085484999207b75531199f5&type=Server" class="roblox-btn">Join Now!</a>
+
+    <div class="info-box">
+      <h2>About the Group</h2>
+      <p>
+        This is a fun Roblox group where we play together, share tips, and enjoy epic games! Everyone is welcome. Click the button above to join and start having fun with us! 🚀
+      </p>
+      <p>Rules: Be kind, follow Roblox rules, and have fun!</p>
+    </div>
+  </div>
+</body>
+</html>
